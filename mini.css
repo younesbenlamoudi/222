@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .all{
+    background-image: linear-gradient(to bottom , white 0%,white 50%,#f05 70%);
+} */
+.younes1{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+}
+.left{
+    width: 38%;
+    position: relative;
+}
+.right{
+    position: relative;
+    width: 62%;
+    overflow: hidden;
+}
+.ileft{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+.ileft h1{
+    font-family: Oswald;
+    text-transform: capitalize;
+    font-size: 55px;
+    color: #0A3250;
+}
+.ileft p{
+    font-family: Oswald;
+    text-transform: capitalize;
+    font-size: 55px;
+    color: #0A3250;
+}
+.want{
+    margin-top: 13%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.want1{
+    height: 65px;
+    width: 480px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 30px;
+    font-family: Oswald;
+    text-indent: 15px;
+    border: 1px #7e8488 solid;
+    outline: none;
+}
+form .fa{
+    position: absolute;
+    background-color: #0A3250;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    right: 5px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+.illustrator{
+    position: absolute;
+    top: 10%;
+    right: -3%;
+    width: 110%;
+    height: 80%;
+    z-index: 5;
+}
+.younes2{
+    width: 100%;
+    height: 60vh;
+}
+.etaps{
+    display: flex;
+    justify-content: space-around;
+}
+.etap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #0A3250;
+    width: 230px;
+    height: 190px;
+    border: 1px #0A3250 solid;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 25px;
+}
+.etap i{
+    margin-top: 10px;
+}
+.mb {
+    margin-left: 95px;
+}
+.r1 {
+    margin-right: 95px;
+}
+.younes2 h1{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    font-family: Oswald;
+    color: #0A3250;
+    font-size: 55px;
+    font-weight: bolder;
+    margin-top: 70px;
+    border-bottom: 3px #0A3250 solid;
+}
+.younes3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(152, 156, 156, 0.116);
+}
+.partner{
+    opacity: 50%;
+}
+.p1{
+    width: 150px;
+    height: 120px;
+    margin-left: 50px;
+}
+.p2{
+    width: 200px;
+    height: 200px;
+}
+.p3{
+    width: 140px;
+    height: 130px;
+}
+.p4{
+    width: 250px;
+    height: 65px;
+}
+.p5{
+    width: 150px;
+    height: 100px;
+    margin-right: 50px;
+}
+.younes4{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35vh;
+}
+.younes4 h1{
+    font-family: Oswald;
+    color: #0A3250;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.younes4 button{
+    width: 350px;
+    height: 50px;
+    background-color: #d9c990;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-family: Oswald;
+    font-size: 30px;
+    box-shadow:  0px 3px 7px 1px #ddd;
+}
+.younes4 p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.younes4 p span{
+    font-family: Oswald;
+    color: #0A3250;
+    font-weight: bolder;
+}
